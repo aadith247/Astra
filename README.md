@@ -53,7 +53,7 @@ agar (x < y) {
 chalo (3 times) {
     suno(x);
 }
-
+```
 ## 🔄 Generated C Code (in the backend) (Example)
 
 ```txt
@@ -73,11 +73,11 @@ int main() {
 
     return 0;
 }
-
+```
 ## Output:
 ```txt
 x is smaller
-
+```
 
 
 
