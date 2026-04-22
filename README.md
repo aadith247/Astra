@@ -40,7 +40,7 @@ SaathiLang supports core programming constructs and translates source code into 
 
 ---
 
-## 🧪 Sample Code (SaathiLang)
+## 🧪 Sample Code of Astra
 
 ```txt
 number x = 5;
@@ -78,6 +78,25 @@ int main() {
 ```txt
 x is smaller
 ```
+
+## 🛠️ Setup & Run
+
+### 1. Install dependencies
+```bash
+sudo apt install flex bison gcc
+```
+### 2. Compile
+```bash
+bison -d parser.y
+flex lexer.l
+gcc lex.yy.c parser.tab.c -o astra
+```
+
+### 3. Run
+```bash
+./astra input.txt
+```
+
 
 
 
